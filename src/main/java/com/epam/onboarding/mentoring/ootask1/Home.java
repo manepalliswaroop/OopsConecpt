@@ -7,8 +7,8 @@ public class Home {
     private int unit=0;
     List<Appliance> applianceList = new ArrayList<>();
 
-    public void switchOn(Appliance appliance, int noOfAppliance){
-        for (int i=0;i<noOfAppliance;i++){
+    public void switchOn(Appliance appliance, int iteration){
+        for (int i=0;i<iteration;i++){
             switchOn(appliance);
         }
     }
