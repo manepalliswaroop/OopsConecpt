@@ -4,30 +4,30 @@ import java.util.Objects;
 
 public class Student {
 
-    private int Sno;
-    private String Name;
+    private int sno;
+    private String name;
     private String college;
 
     public Student(int sno, String name, String college) {
-        Sno = sno;
-        Name = name;
+        this.sno = sno;
+        this.name = name;
         this.college = college;
     }
 
     public int getSno() {
-        return Sno;
+        return sno;
     }
 
     public void setSno(int sno) {
-        Sno = sno;
+        this.sno = sno;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getCollege() {
@@ -37,6 +37,7 @@ public class Student {
     public void setCollege(String college) {
         this.college = college;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

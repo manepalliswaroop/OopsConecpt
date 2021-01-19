@@ -11,6 +11,4 @@ public final class PracticeFinal {
     public final void study(int time){
         System.out.println("your are studying "+time);
     }
-
-
 }
