@@ -33,18 +33,18 @@ public class Automation {
     @Test
     public void launchTestAutomationGuruTest() {
         driver.get("https://mvnrepository.com/");
-        Assert.assertEquals("Maven Repository: Search/Browse/Explore", driver.getTitle());
+        Assert.assertEquals(driver.getTitle(),"Maven Repository: Search/Browse/Explore");
     }
 
     @Test
     public void launchGoogleTest() {
         driver.get("https://www.google.com");
-        Assert.assertEquals("Google", driver.getTitle());
+        Assert.assertEquals(driver.getTitle(),"Google");
     }
 
     @Test
     public void launchYahooTest() {
         driver.get("https://www.yahoo.com");
-        Assert.assertEquals("Yahoo", driver.getTitle());
+        Assert.assertEquals(driver.getTitle(),"Yahoo");
     }
 }
